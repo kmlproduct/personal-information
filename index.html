@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h3>Resume Management</h3>
+        <div class="btn-header">
+            <div id="crt-resume" class="btn-head">Creat Resume</div>
+            <div class="btn-head">My Resume</div>
+            <div class="btn-head">Contact</div>
+        </div>
+    </header>
+    <h1 id="h1">Hello & welcome!</h1>
+    <div class="parent">
+        <div class="container" id="container">
+            <h2 >Create Resume</h2>
+            <p>FIRST NAME</p>
+            <input type="text" placeholder="Enter your First name">
+            <P>LAST NAME</P>
+            <input type="text" placeholder="Enter your Last name">
+            <p>JOB TITLE</p>
+            <input type="text" placeholder="Enter your job title">
+            <p>EMAIL</p>
+            <input type="email" placeholder="Enter your email">
+            <p>PHONE</p>
+            <input type="text" placeholder="Enter your phone number">
+            <p>ADRESS</p>
+            <input type="text" placeholder="Enter your adress">
+            <button onclick="myNext()" class="next">NEXT</button>
+            <div class="show-next">
+                <div id="show-next1" class="show-next1"></div>
+                <div  class="show-next1"></div>
+                <div  class="show-next1"></div>
+                <div  class="show-next1"></div>
+            </div>
+        </div>
+        <div class="container2" id="container2">
+            <h2>Create Resume</h2>
+            <p>PROFESSIONAL EXPERIENCE</p>
+            <input type="text">
+            <button onclick="myNext2()" class="next">NEXT</button>
+            <div class="show-next">
+                <div  class="show-next1"></div>
+                <div id="show-next2" class="show-next1"></div>
+                <div  class="show-next1"></div>
+                <div  class="show-next1"></div>
+            </div>
+        </div>
+        <div id="container3" class="container3">
+            <h2>Create Resume</h2>
+            <p>EDUCATION</p>
+            <input type="text">
+            <button onclick="myNext3()" class="next">NEXT</button>
+            <div class="show-next">
+                <div  class="show-next1"></div>
+                <div  class="show-next1"></div>
+                <div id="show-next3" class="show-next1"></div>
+                <div  class="show-next1"></div>
+            </div>
+        </div>
+        <div id="container4" class="container4">
+            <h2>Create Resume</h2>
+            <p>SKILLS</p>
+            <input type="text">
+            <div class="show-next">
+                <div  class="show-next1"></div>
+                <div  class="show-next1"></div>
+                <div  class="show-next1"></div>
+                <div id="show-next4" class="show-next1"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
