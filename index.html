@@ -22,17 +22,17 @@
         <div class="container" id="container">
             <h2 >Create Resume</h2>
             <p>FIRST NAME</p>
-            <input type="text" placeholder="Enter your First name">
+            <input id="input1" type="text" placeholder="Enter your First name">
             <P>LAST NAME</P>
-            <input type="text" placeholder="Enter your Last name">
+            <input id="input2" type="text" placeholder="Enter your Last name">
             <p>JOB TITLE</p>
-            <input type="text" placeholder="Enter your job title">
+            <input id="input3" type="text" placeholder="Enter your job title">
             <p>EMAIL</p>
-            <input type="email" placeholder="Enter your email">
+            <input id="input4" type="email" placeholder="Enter your email">
             <p>PHONE</p>
-            <input type="text" placeholder="Enter your phone number">
+            <input id="input5" type="text" placeholder="Enter your phone number">
             <p>ADRESS</p>
-            <input type="text" placeholder="Enter your adress">
+            <input id="input6" type="text" placeholder="Enter your adress">
             <button onclick="myNext()" class="next">NEXT</button>
             <div class="show-next">
                 <div id="show-next1" class="show-next1"></div>
@@ -44,7 +44,7 @@
         <div class="container2" id="container2">
             <h2>Create Resume</h2>
             <p>PROFESSIONAL EXPERIENCE</p>
-            <input type="text">
+            <input id="input7" type="text">
             <button onclick="myNext2()" class="next">NEXT</button>
             <div class="show-next">
                 <div  class="show-next1"></div>
@@ -56,7 +56,7 @@
         <div id="container3" class="container3">
             <h2>Create Resume</h2>
             <p>EDUCATION</p>
-            <input type="text">
+            <input id="input8" type="text">
             <button onclick="myNext3()" class="next">NEXT</button>
             <div class="show-next">
                 <div  class="show-next1"></div>
@@ -68,7 +68,7 @@
         <div id="container4" class="container4">
             <h2>Create Resume</h2>
             <p>SKILLS</p>
-            <input type="text">
+            <input id="input9" type="text">
             <button onclick="myNext4()" class="next">NEXT</button>
             <div class="show-next">
                 <div  class="show-next1"></div>
@@ -77,8 +77,24 @@
                 <div id="show-next4" class="show-next1"></div>
             </div>
         </div>
+        <div id="container5" class="container5">
+            <h1 id="name"></h1>
+            <p id="job-info"></p>
+            <h2>Contact me</h2>
+            <ul>
+                <li id="phone-info"></li>
+                <li id="mail-info"></li>
+                <li id="adress-info"></li>
+            </ul>
+            <h2>Professionnal experience</h2>
+            <p id="perso-info"></p>
+            <h2>Education</h2>
+            <p id="educ-info"></p>
+            <h2>Skills</h2>
+            <p id="skills-info"></p>
+        </div>
     </div>
+    
     <script src="main.js"></script>
 </body>
-
 </html>

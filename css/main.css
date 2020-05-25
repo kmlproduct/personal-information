@@ -33,14 +33,33 @@ h3{
     margin-right: 200px;
     padding: 20px;
 }
-.container, .container2, .container3, .container4{
+.container, .container2, .container3, .container4, .container5{
     background-color: white;
     width: 300px;
     padding: 20px;
-    margin: 60px 100px 0 100px;
+    margin: 71px 0px 0px 456px;
     display: none;
     border-radius: 3px solid #AAA;
 
+}
+.container5 h2 {
+    margin-top: 30px;
+}
+.container5 p {
+    padding: 5px;
+}
+ul{
+    margin: 20px;
+}
+ul li:first-child  {
+
+list-style-image: url('/img/phone16px.png');
+}
+ul li:nth-child(2){
+    list-style-image: url('/img/mail16px.png');
+}
+ul li:nth-child(3){
+    list-style-image: url('/img/local16px.png');
 }
  h2{
     margin-bottom: 10px;
@@ -119,6 +138,7 @@ input {
     border-radius: 50%;
     
 }
+
 @media (max-width:500px){
    
     .btn-header{
@@ -159,7 +179,7 @@ input {
         
     }
     
-    .container, .container2, .container3, .container4{
+    .container, .container2, .container3, .container4, .container5{
         background-color: white;
         width: 300px;
         padding: 5px;
